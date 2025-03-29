@@ -1,2 +1,8 @@
 .env
 feed_data/
+
+__pycache__/feed_parser.cpython-312.pyc
+__pycache__/main.cpython-312.pyc
+__pycache__/test_feed_parser.cpython-312.pyc
+__pycache__/test_feed_processor.cpython-312.pyc
+.coverage

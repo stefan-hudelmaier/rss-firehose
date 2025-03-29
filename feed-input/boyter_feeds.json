@@ -1,0 +1,2204 @@
+{
+  "feeds": [
+    {
+      "url": "https://theconversation.com/au/articles.atom",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.122618+00:00",
+        "last_failure": "2025-03-29T22:33:22.067285+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.techrepublic.com/rssfeeds/articles/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:35:37.123566+00:00",
+        "last_failure": "2025-03-29T22:33:54.074764+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.theguardian.com/au/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.123681+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.canberratimes.com.au/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.124191+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://ia.acs.org.au/articles.rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.124244+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.smh.com.au/rss/feed.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.124383+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.eurekastreet.com.au/eureka_street.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.124595+00:00",
+        "last_failure": "2025-03-29T22:34:30.069665+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.thenation.com/feed/?post_type=article",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.124768+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.sbs.com.au/news/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.124934+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/2942460/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.125151+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/health/indexes/exclude-recipes/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.125373+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.125413+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.sbs.com.au/news/topic/australia/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.125608+00:00",
+        "last_failure": "2025-03-29T22:31:41.100103+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.yahoo.com/news/rss/topstories",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.125866+00:00",
+        "last_error": "HTTP error 429"
+      }
+    },
+    {
+      "url": "https://www.yahoo.com/news/rss/world/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.125891+00:00",
+        "last_error": "HTTP error 429"
+      }
+    },
+    {
+      "url": "https://lifehacker.com/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.125894+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.126032+00:00",
+        "last_failure": "2025-03-29T22:31:41.106845+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.heraldsun.com.au/news/breaking-news/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.126238+00:00",
+        "last_failure": "2025-03-29T22:31:41.106881+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://insidestory.org.au/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 1,
+        "failure_count": 4,
+        "last_success": "2025-03-29T22:33:54.077050+00:00",
+        "last_failure": "2025-03-29T22:35:37.126351+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://www.economist.com/rss/the_world_this_week_rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.126355+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/8057540/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.126635+00:00",
+        "last_failure": "2025-03-29T22:31:41.119655+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.gamespot.com/feeds/mashup/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.126861+00:00",
+        "last_failure": "2025-03-29T22:33:22.071411+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.yahoo.com/news/rss/world/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.127200+00:00",
+        "last_error": "HTTP error 429"
+      }
+    },
+    {
+      "url": "https://johnmenadue.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:34:30.072128+00:00",
+        "last_failure": "2025-03-29T22:35:37.127218+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.news.com.au/content-feeds/latest-news-national/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.127221+00:00",
+        "last_failure": "2025-03-29T22:31:41.121056+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.news.com.au/content-feeds/latest-news-technology/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.127481+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.news.com.au/content-feeds/latest-news-entertainment/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.127706+00:00",
+        "last_failure": "2025-03-29T22:31:41.121432+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.news.com.au/content-feeds/latest-news-sport/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.127946+00:00",
+        "last_failure": "2025-03-29T22:33:22.072691+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.news.com.au/content-feeds/latest-news-lifestyle/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:35:37.128173+00:00",
+        "last_failure": "2025-03-29T22:34:30.073169+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.news.com.au/content-feeds/latest-news-finance/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:35:37.128402+00:00",
+        "last_failure": "2025-03-29T22:34:30.073188+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.news.com.au/content-feeds/latest-news-world/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:35:37.128624+00:00",
+        "last_failure": "2025-03-29T22:34:30.073200+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.dailymail.co.uk/articles.rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.128850+00:00",
+        "last_failure": "2025-03-29T22:33:54.094620+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.130239+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.130460+00:00",
+        "last_failure": "2025-03-29T22:31:41.138753+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://api.foxsports.com/v1/rss?partnerKey=zBaFxRyGKCfxBagJG9b8pqLyndmvo7UU",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.130652+00:00",
+        "last_failure": "2025-03-29T22:31:41.138797+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/8057096/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.130855+00:00",
+        "last_failure": "2025-03-29T22:33:22.073770+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.crikey.com.au/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.131061+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.themercury.com.au/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.131109+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.pcgamesn.com/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.131209+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/8057136/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.131212+00:00",
+        "last_failure": "2025-03-29T22:33:22.073949+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.ntnews.com.au/news/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.131414+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.dailytelegraph.com.au/news/breaking-news/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.131488+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/8057648/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.131554+00:00",
+        "last_failure": "2025-03-29T22:33:22.074140+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/8053540/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:34:30.075718+00:00",
+        "last_failure": "2025-03-29T22:35:37.131769+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.131773+00:00",
+        "last_failure": "2025-03-29T22:33:54.097884+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.townsvillebulletin.com.au/news/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.131992+00:00",
+        "last_failure": "2025-03-29T22:33:22.074398+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.smh.com.au/rssheadlines/world/article/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.132066+00:00",
+        "last_failure": "2025-03-29T22:33:22.074415+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.computerworld.com/index.rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.132267+00:00",
+        "last_error": "HTTP error 404"
+      }
+    },
+    {
+      "url": "https://www.vox.com/rss/index.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.132271+00:00",
+        "last_failure": "2025-03-29T22:33:54.098423+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.aljazeera.com/xml/rss/all.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:34:30.076535+00:00",
+        "last_failure": "2025-03-29T22:35:37.132331+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:35:37.132334+00:00",
+        "last_failure": "2025-03-29T22:34:30.076611+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://kotaku.com/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.132533+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.foxnews.com/foxnews/politics",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:34:30.076767+00:00",
+        "last_failure": "2025-03-29T22:35:37.132696+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://feeds.foxnews.com/foxnews/scitech",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:34:30.076987+00:00",
+        "last_failure": "2025-03-29T22:35:37.132712+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.polygon.com/rss/index.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.132714+00:00",
+        "last_failure": "2025-03-29T22:31:41.150328+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.mckinsey.com/insights/rss.aspx",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.132757+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://fortune.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.132836+00:00",
+        "last_failure": "2025-03-29T22:31:41.152032+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.nintendolife.com/feeds/latest",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.132871+00:00",
+        "last_failure": "2025-03-29T22:31:41.152047+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/1948/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.133213+00:00",
+        "last_failure": "2025-03-29T22:33:22.088365+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://time.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.133427+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.thecipherbrief.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.133482+00:00",
+        "last_failure": "2025-03-29T22:33:22.088428+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.michaelwest.com.au/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.133547+00:00",
+        "last_failure": "2025-03-29T22:33:22.088440+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://gizmodo.com/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.133613+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.dailytelegraph.com.au/news/world/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.133664+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://rss.slashdot.org/Slashdot/slashdotMain",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:33:22.088607+00:00",
+        "last_failure": "2025-03-29T22:35:37.133761+00:00",
+        "last_error": "HTTP error 500"
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/Makeuseof",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.133765+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/com/rCTl?format=xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.133912+00:00",
+        "last_failure": "2025-03-29T22:31:41.161032+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.pushsquare.com/feeds/latest",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.134140+00:00",
+        "last_failure": "2025-03-29T22:31:41.161046+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://indaily.com.au/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.134575+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "https://www.france24.com/en/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.134581+00:00",
+        "last_failure": "2025-03-29T22:33:22.090141+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://newmatilda.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.134868+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.technologyreview.com/topnews.rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.134942+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.espn.com/espn/rss/news",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.134983+00:00",
+        "last_failure": "2025-03-29T22:31:41.162587+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://globalnews.ca/world/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.135349+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/52278/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.135473+00:00",
+        "last_error": "HTTP error 404"
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/CalculatedRisk",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.135481+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/Techcrunch",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.136144+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/TheBigPicture",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.138249+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.salon.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.138651+00:00",
+        "last_failure": "2025-03-29T22:33:22.094954+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.reutersagency.com/feed/?taxonomy=best-topics&post_type=best",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.138899+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/oreilly/radar/atom",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.138906+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://viralnow.uk/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.139131+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/readwriteweb",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.139135+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://themessenger.com/rss/default.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.139443+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "http://rss.cnn.com/rss/cnn_topstories.rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.139447+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://rss.cnn.com/rss/cnn_world.rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.139900+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://talksport.com/rss/sports-news/all/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.140135+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://abcnews.go.com/abcnews/topstories",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.140166+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.theguardian.com/world/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.140368+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.140574+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/time/topstories",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.140576+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.140721+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://dailysignal.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:33:54.109632+00:00",
+        "last_failure": "2025-03-29T22:35:37.140799+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/8054562/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.140802+00:00",
+        "last_failure": "2025-03-29T22:33:22.100725+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://sports.yahoo.com/ufc/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.141042+00:00",
+        "last_error": "HTTP error 404"
+      }
+    },
+    {
+      "url": "http://newsrss.bbc.co.uk/rss/sportonline_world_edition/front_page/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.141046+00:00",
+        "last_failure": "2025-03-29T22:33:22.100790+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.channelnewsasia.com/rssfeeds/8395884",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.141401+00:00",
+        "last_failure": "2025-03-29T22:33:22.100814+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/AtlanticBusinessChannel",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.141449+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://mynintendonews.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.141641+00:00",
+        "last_failure": "2025-03-29T22:33:54.111838+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.wired.com/wired/index",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.141739+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/time/world",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.141742+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.harvardbusiness.org/harvardbusiness/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.141869+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://internewscast.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.142068+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://rss.cnn.com/rss/cnn_allpolitics.rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.142278+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.recode.net/rss/index.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.142506+00:00",
+        "last_failure": "2025-03-29T22:33:54.112944+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.washingtontimes.com/rss/headlines/news/world",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.142535+00:00",
+        "last_failure": "2025-03-29T22:31:41.268567+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://businessdesk.co.nz/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.142575+00:00",
+        "last_failure": "2025-03-29T22:33:54.113023+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://nypost.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.142778+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.blowthetruth.com/feeds/posts/default",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.143027+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://rss.cbssports.com/rss/headlines/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 1,
+        "failure_count": 4,
+        "last_success": "2025-03-29T22:33:54.113093+00:00",
+        "last_failure": "2025-03-29T22:35:37.143039+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/gamers/.rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.143041+00:00",
+        "last_failure": "2025-03-29T22:34:30.088846+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.rawstory.com/category/world/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.143335+00:00",
+        "last_failure": "2025-03-29T22:34:30.088856+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://sports.yahoo.com/mlb/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.143566+00:00",
+        "last_failure": "2025-03-29T22:33:54.114467+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://theaimn.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.143901+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.rand.org/topics/international-affairs.xml/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.143956+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.scmp.com/rss/91/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.143977+00:00",
+        "last_failure": "2025-03-29T22:34:30.089280+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.westhesportsguy.com/feeds/posts/default",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.144074+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.news.com.au/content-feeds/latest-news-travel/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.144076+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://aljazeera.com/xml/rss/all.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:34:30.089530+00:00",
+        "last_failure": "2025-03-29T22:35:37.144339+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://feeds.nytimes.com/nyt/rss/Technology",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.144355+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://sports.yahoo.com/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.144357+00:00",
+        "last_failure": "2025-03-29T22:31:41.287825+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://sports.yahoo.com/nfl/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.144706+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.mashable.com/Mashable",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.145019+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://news.xbox.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.145646+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "https://www.9news.com/feeds/syndication/rss/news",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.145664+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/venturebeat/SZYF",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.145666+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://sports.yahoo.com/ncaab/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.145920+00:00",
+        "last_failure": "2025-03-29T22:31:41.298718+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://sports.yahoo.com/nba/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.146006+00:00",
+        "last_failure": "2025-03-29T22:31:41.298730+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/8055316/rss.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.146308+00:00",
+        "last_failure": "2025-03-29T22:31:41.298742+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://news.ycombinator.com/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.146503+00:00",
+        "last_failure": "2025-03-29T22:31:41.298751+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds2.feedburner.com/businessinsider",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.146705+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://sports.yahoo.com/nhl/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.147032+00:00",
+        "last_failure": "2025-03-29T22:31:41.305862+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.headlinesoftoday.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.147358+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.thesun.co.uk/news/worldnews/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:34:30.092645+00:00",
+        "last_failure": "2025-03-29T22:35:37.147425+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.9news.com/feeds/syndication/rss/news/entertainment-news",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.147442+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://annalshub.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.147454+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.9news.com/feeds/syndication/rss/news/health",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.147466+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://stardiapost.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.147476+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://warritatafo.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.147478+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.rt.com/rss/news/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.147502+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.rt.com/rss/russia/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.148211+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.easternherald.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.148937+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "https://www.rt.com/rss/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.148941+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://feeds.dzone.com/home",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.149648+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.rt.com/rss/news/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.149753+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.rt.com/rss-feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.150489+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://lionnetnews.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.152515+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/WarNewsUpdates",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.152530+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://newsblaze.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.153442+00:00",
+        "last_failure": "2025-03-29T22:33:54.125602+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.independent.co.uk/news/world/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.153595+00:00",
+        "last_error": "HTTP error 405"
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/daily-express-world-news",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.153599+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://funmitrends.com.ng/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.153835+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://feeds.skynews.com/feeds/rss/world.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.153857+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.yerozo.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.153878+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.commissionbro.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.153899+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.ctvnews.ca/rss/world/ctvnews-ca-world-public-rss-1.822289",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.153914+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://wan-ifra.org/news/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.153917+00:00",
+        "last_failure": "2025-03-29T22:33:54.125897+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.buzzfeed.com/world.xml",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.154006+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://rss.csmonitor.com/feeds/world",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.154190+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://warontherocks.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.154527+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "https://dongknows.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.154533+00:00",
+        "last_failure": "2025-03-29T22:33:54.126271+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://newslanes.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.154764+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://odincenews.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.154846+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://feeds.breakingnews.ie/bnworld",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.154850+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://lobste.rs/rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.155042+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.rt.com/rss/business/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.155218+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://sknreporter.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.156355+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.newscentric.com.ng/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.156379+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://feeds.feedburner.com/ndtvnews-world-news",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.156383+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.rt.com/rss/podcasts/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.156673+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://carihargaterupdate.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.157434+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.rt.com/rss/op-ed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.157439+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.rt.com/rss/pop-culture/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.158185+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://worldweeklynews.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 2,
+        "failure_count": 3,
+        "last_success": "2025-03-29T22:33:22.127074+00:00",
+        "last_failure": "2025-03-29T22:35:37.159043+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://thisdaytrends.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159061+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.blogger.com/feeds/468623359017296874/posts/default",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159074+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://deenewsline.com.ng/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159085+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://soulwriteempire.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 1,
+        "failure_count": 4,
+        "last_success": "2025-03-29T22:34:30.102393+00:00",
+        "last_failure": "2025-03-29T22:35:37.159096+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.focusnews.com.ng/feeds/posts/default?alt=rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159106+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.cbsnews.com/latest/rss/world",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 4,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.159108+00:00",
+        "last_failure": "2025-03-29T22:34:30.102590+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.thenewscave.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159204+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://acebloggers.com.ng/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159216+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://dandyworldnews.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159226+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://tataafo.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159236+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://odincenews.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159245+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.thenexthint.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:33:54.129974+00:00",
+        "last_failure": "2025-03-29T22:35:37.159254+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://sixpostnews.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159264+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://rss.cnn.com/rss/edition_world.rss",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.159265+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.arstechnica.com/arstechnica/gaming/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 3,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:34:30.102927+00:00",
+        "last_failure": "2025-03-29T22:35:37.159523+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://www.cnet.com/rss/news",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159538+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.huffingtonpost.com/section/business/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159549+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.excite-news.site/feeds/posts/default",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159559+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.huffingtonpost.com/section/front-page/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159569+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://feeds.feedburner.com/feedly/KFJf",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 5,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.159570+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://dtownpost.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159680+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://www.akajesusnews.com.ng/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159694+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "http://augchi.com/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159706+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://emeylizzy.com.ng/feed",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159716+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://globalpressjournal.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159725+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://theweeklytide.com/feed/",
+      "source_file": "boyter_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 5,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.159748+00:00",
+        "last_error": ""
+      }
+    }
+  ]
+}

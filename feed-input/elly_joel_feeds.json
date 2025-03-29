@@ -1,0 +1,1104 @@
+{
+  "feeds": [
+    {
+      "url": "http://blog.chromium.org/feeds/posts/default",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.013236+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/456bereastreet",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.016078+00:00",
+        "last_failure": "2025-03-28T18:23:41.798988+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/paul-irish",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.017931+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/ILoveTypography",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.021373+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/FunctioningForm",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.026939+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/CssTricks",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.028248+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/remysharp",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.028783+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/robertnyman",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.029864+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/reybango/zSyW",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.030372+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds2.feedburner.com/WebDesignerNotebook",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.030607+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds2.feedburner.com/leaverou",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.030851+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/typegoodness",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.047532+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://hacks.mozilla.org/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.048380+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/RachelNabors",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.048386+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/bocoup",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.048522+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/Kilianvalkhofcom",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.048713+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/WhenCanIUse",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.048909+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://www.webdirections.org/category/blog/feed",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.049145+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "http://tantek.com/updates.atom?ot=article",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.049150+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/PodnoshBlogHighFibrePodcasting",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.049445+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/thatemil-blog",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.049742+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/HtmlCssJavascript",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.051143+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://robinrendle.com/feed",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.051361+00:00",
+        "last_error": "HTTP error 404"
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/robinsloan",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.051367+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/codyhouse/feeds",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.052043+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://feeds.feedburner.com/robweychert",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.052184+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://meowni.ca/atom.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.053276+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://annevankesteren.nl/feeds/weblog",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.058093+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://adactio.com/journal/rss",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.058606+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://mathiasbynens.be/notes.atom",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.059140+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://infrequently.org/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.059271+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.bram.us/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.060340+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://paul.kinlan.me/index.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.060461+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.filamentgroup.com/lab/atom.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.060815+00:00",
+        "last_error": "HTTP error 404"
+      }
+    },
+    {
+      "url": "https://jakearchibald.com/posts.rss",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.060819+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "http://bramstein.com/rss.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.060872+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://evilmartians.com/chronicles.atom",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.060945+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.w3.org/blog/CSS/feed/atom/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.061024+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://davidwalsh.name/feed/atom",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.061086+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://webkit.org/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.061216+00:00",
+        "last_failure": "2025-03-29T22:12:55.381887+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://timkadlec.com/atom.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.061267+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.w3.org/blog/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.068551+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://feeds.feedburner.com/24ways",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.068949+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://bitsofco.de/rss/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.073834+00:00",
+        "last_failure": "2025-03-28T18:23:41.811241+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.alwaystwisted.com/rss.php",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.080807+00:00",
+        "last_error": "<unknown>:79:4: mismatched tag"
+      }
+    },
+    {
+      "url": "https://blog.codepen.io/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.080821+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://snook.ca/posts/index.rss",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.081156+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://accessibility.blog.gov.uk/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.081723+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "https://ishadeed.com/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.081729+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://nolanlawson.com/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.081883+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://jvns.ca/atom.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.081958+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://daverupert.com/atom.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.082537+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://meiert.com/en/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.082844+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://ethanmarcotte.com/wrote/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.082904+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://tylergaw.com/rss.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.083159+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://bigmedium.com/bm.feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.084338+00:00",
+        "last_failure": "2025-03-29T22:12:56.010941+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.zeldman.com/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.087275+00:00",
+        "last_failure": "2025-03-29T22:12:56.010963+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://danielcwilson.com/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.087509+00:00",
+        "last_failure": "2025-03-29T22:12:56.010974+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://blog.typekit.com/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.093254+00:00",
+        "last_failure": "2025-03-28T18:23:41.819408+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://feeds.feedburner.com/TheSeaOfIdeas",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.093965+00:00",
+        "last_error": "<unknown>:13:67: not well-formed (invalid token)"
+      }
+    },
+    {
+      "url": "https://clagnut.com/feeds/fullposts.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.093983+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://feeds.feedburner.com/jsm-rss",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.094373+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://increment.com/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.095167+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://frankchimero.com/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.095247+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://fberriman.com/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.095491+00:00",
+        "last_failure": "2025-03-29T22:12:56.028963+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://webplatform.news/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.095651+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://feeds.feedburner.com/csswizardry",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.095657+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://keithjgrant.com/posts/index.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.097367+00:00",
+        "last_failure": "2025-03-28T18:23:41.820858+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://pineco.de/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.098800+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.xanthir.com/blog/atom/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.098978+00:00",
+        "last_error": "<unknown>:75:0: junk after document element"
+      }
+    },
+    {
+      "url": "https://superyesmore.com/publication/the-pastry-box-project-b0b6f27b41226ac8619212601b8fa48b/feed/rss2",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.099027+00:00",
+        "last_error": "Cannot connect to host superyesmore.com:443 ssl:default [No address associated with hostname]"
+      }
+    },
+    {
+      "url": "https://www.zachleat.com/web/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.099033+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://recordssoundthesame.com/blog/index.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.099246+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://paulrobertlloyd.com/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.099349+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://stevemarshall.com/atom.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.099410+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://julesforrest.com/rss.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.099797+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://molily.de/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.099871+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.aaron-gustafson.com/feeds/latest-posts.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.101113+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.kryogenix.org/days/feed",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.101185+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://trentwalton.com/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.101898+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://matthewstrom.com/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.102007+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://feeds.feedburner.com/briangrinstead",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.105407+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://feeds.feedburner.com/chrisheilmann",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.105757+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://petergasston.co.uk/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.106000+00:00",
+        "last_error": "HTTP error 403"
+      }
+    },
+    {
+      "url": "https://feeds.feedburner.com/elliotjaystocks/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.106005+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://larahogan.me/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.106474+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.susanjeanrobertson.com/feed-journal.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.106724+00:00",
+        "last_failure": "2025-03-29T22:12:56.324273+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.merrickchristensen.com/rss.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 0,
+        "failure_count": 15,
+        "last_success": null,
+        "last_failure": "2025-03-29T22:35:37.106810+00:00",
+        "last_error": "HTTP error 404"
+      }
+    },
+    {
+      "url": "https://buttondown.email/robinrendle/rss",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 13,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.106820+00:00",
+        "last_failure": "2025-03-29T22:33:22.057776+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://marcus.io/feed",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.107277+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://valhead.com/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 1,
+        "failure_count": 14,
+        "last_success": "2025-03-28T18:23:41.829332+00:00",
+        "last_failure": "2025-03-29T22:35:37.108179+00:00",
+        "last_error": "<unknown>:4:0: XML or text declaration not at start of entity"
+      }
+    },
+    {
+      "url": "https://matthiasott.com/rss",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 10,
+        "failure_count": 5,
+        "last_success": "2025-03-29T22:33:54.058408+00:00",
+        "last_failure": "2025-03-29T22:35:37.108211+00:00",
+        "last_error": ""
+      }
+    },
+    {
+      "url": "https://samkapila.com/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.108218+00:00",
+        "last_failure": "2025-03-29T22:12:56.325408+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.scottohara.me/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.109469+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://notlaura.com/feed/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 13,
+        "failure_count": 2,
+        "last_success": "2025-03-29T22:35:37.109559+00:00",
+        "last_failure": "2025-03-29T22:19:24.885904+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://css-irl.info/rss.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.110029+00:00",
+        "last_failure": "2025-03-29T22:26:50.844753+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://sallylait.com/blog/index.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.115881+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://bkardell.com/blog/feed.rss",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.116436+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.liquidlight.co.uk/blog/rss/",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 14,
+        "failure_count": 1,
+        "last_success": "2025-03-29T22:35:37.116488+00:00",
+        "last_failure": "2025-03-29T22:12:56.533724+00:00",
+        "last_error": null
+      }
+    },
+    {
+      "url": "https://www.hawksworx.com/feed.xml",
+      "source_file": "elly_joel_feeds.json",
+      "stats": {
+        "success_count": 15,
+        "failure_count": 0,
+        "last_success": "2025-03-29T22:35:37.116659+00:00",
+        "last_failure": null,
+        "last_error": null
+      }
+    }
+  ]
+}
