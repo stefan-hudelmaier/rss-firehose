@@ -6,11 +6,13 @@ import json
 from datetime import datetime, timezone
 import asyncio
 import aiohttp
-
 import logging
 import sys
 import base64
 import paho.mqtt.client as mqtt
+import schedule
+import time
+from queue import Queue
 from typing import List, Dict, Any, Tuple, Optional
 
 # MQTT Configuration
@@ -33,6 +35,9 @@ logger.addHandler(handler)
 
 # Semaphore to limit concurrent requests
 semaphore = asyncio.Semaphore(150)
+
+# Queue for MQTT messages
+mqtt_queue = Queue()
 
 from feed_parser import fetch_feed, FeedCache, find_new_items
 
@@ -95,41 +100,19 @@ def load_persisted_feed(file_path: str) -> Dict[str, Any]:
             - items: List of feed items
             - etag: ETag header value if present
             - last_modified: Last-Modified header value if present
+            - stats: Dictionary with success/failure counts and timestamps
     """
     if os.path.exists(file_path):
         with open(file_path, 'r') as f:
             data = json.load(f)
             if isinstance(data, list):  # Handle old format
-                return {'items': data, 'etag': None, 'last_modified': None}
+                return {'items': data, 'etag': None, 'last_modified': None, 'stats': {}}
+            if 'stats' not in data:  # Handle data without stats
+                data['stats'] = {}
             return data
-    return {'items': [], 'etag': None, 'last_modified': None}
+    return {'items': [], 'etag': None, 'last_modified': None, 'stats': {}}
 
-def save_feed_stats(feed_input_dir: str, feeds: List[Dict[str, Any]]) -> None:
-    """Save updated feed stats back to the original JSON files.
-
-    Args:
-        feed_input_dir: Directory containing feed JSON files
-        feeds: List of feed dictionaries with updated stats
-    """
-    # Group feeds by their source file
-    feeds_by_file = {}
-    for feed in feeds:
-        source_file = feed.get('source_file')
-        if source_file:
-            if source_file not in feeds_by_file:
-                feeds_by_file[source_file] = {'feeds': []}
-            feeds_by_file[source_file]['feeds'].append(feed)
-
-    # Save each group back to its source file
-    for json_file, feed_config in feeds_by_file.items():
-        file_path = os.path.join(feed_input_dir, json_file)
-        try:
-            with open(file_path, 'w') as f:
-                json.dump(feed_config, f, indent=2)
-        except Exception as e:
-            logger.error(f"Error saving stats to {json_file}: {str(e)}")
-
-def save_feed(file_path: str, items: List[Dict[str, Any]], etag: Optional[str] = None, last_modified: Optional[str] = None) -> None:
+def save_feed(file_path: str, items: List[Dict[str, Any]], etag: Optional[str] = None, last_modified: Optional[str] = None, stats: Optional[Dict[str, Any]] = None) -> None:
     """Save feed items and caching headers to a JSON file.
     
     Args:
@@ -137,11 +120,13 @@ def save_feed(file_path: str, items: List[Dict[str, Any]], etag: Optional[str] =
         items: List of feed items
         etag: Optional ETag header value
         last_modified: Optional Last-Modified header value
+        stats: Optional stats dictionary containing success/failure counts and timestamps
     """
     data = {
         'items': items,
         'etag': etag,
-        'last_modified': last_modified
+        'last_modified': last_modified,
+        'stats': stats or {}
     }
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=2)
@@ -250,13 +235,18 @@ async def main() -> None:
 
     # Filter out consistently failing feeds (no successes and >5 failures)
     original_feed_count = len(feeds)
-    feeds = [
-        feed for feed in feeds
-        if not (feed['stats']['success_count'] == 0 and feed['stats']['failure_count'] > 5)
-    ]
-    filtered_count = original_feed_count - len(feeds)
+    filtered_feeds = []
+    for feed in feeds:
+        feed_file = os.path.join(feed_dir, get_feed_filename(feed['url']))
+        feed_data = load_persisted_feed(feed_file)
+        stats = feed_data.get('stats', {})
+        if not (stats.get('success_count', 0) == 0 and stats.get('failure_count', 0) > 5):
+            filtered_feeds.append(feed)
+    
+    filtered_count = original_feed_count - len(filtered_feeds)
     if filtered_count > 0:
         logger.info(f"Filtered out {filtered_count} consistently failing feeds")
+    feeds = filtered_feeds
 
     feeds = feeds[:300]
     total_new_items = 0
@@ -306,31 +296,34 @@ async def main() -> None:
             if (i + 1) % 100 == 0:
                 progress = ((i + 1) / total_feeds) * 100
                 logger.info(f"Progress: {progress:.1f}% ({i + 1}/{total_feeds} feeds processed, {successful_count} successful, {failed_count} failed)")
+            # Load persisted feed data first to get current stats
+            feed_file = os.path.join(feed_dir, get_feed_filename(feeds[i]['url']))
+            feed_data = load_persisted_feed(feed_file)
+            stats = feed_data.get('stats', {})
+            
             if isinstance(rss_feed, Exception):
                 logger.error(f"Error fetching feed {i} with url {feeds[i]['url']}: {rss_feed}")
                 failed_count += 1
                 # Update failure stats
-                feeds[i]['stats']['failure_count'] += 1
-                feeds[i]['stats']['last_failure'] = datetime.now(timezone.utc).isoformat()
-                feeds[i]['stats']['last_error'] = str(rss_feed)
+                stats['failure_count'] = stats.get('failure_count', 0) + 1
+                stats['last_failure'] = datetime.now(timezone.utc).isoformat()
+                stats['last_error'] = str(rss_feed)
+                # Save updated stats
+                save_feed(feed_file, feed_data['items'], feed_data.get('etag'), feed_data.get('last_modified'), stats)
             else:
                 items, cache, was_modified, bytes_fetched = rss_feed
                 total_bytes_fetched += bytes_fetched
                 successful_count += 1
                 # Update success stats
-                feeds[i]['stats']['success_count'] += 1
-                feeds[i]['stats']['last_success'] = datetime.now(timezone.utc).isoformat()
-                feeds[i]['stats']['last_error'] = None
-
-                # Check for new items and save feed data
-                feed_file = os.path.join(feed_dir, get_feed_filename(feeds[i]['url']))
-                feed_data = load_persisted_feed(feed_file)
+                stats['success_count'] = stats.get('success_count', 0) + 1
+                stats['last_success'] = datetime.now(timezone.utc).isoformat()
+                stats['last_error'] = None
                 
                 # Find new items by comparing with persisted items
                 new_items = find_new_items(feed_data['items'], items)
                 if new_items or was_modified:
-                    # Save the feed data with updated items and cache headers
-                    save_feed(feed_file, items, cache.etag, cache.last_modified)
+                    # Save the feed data with updated items, cache headers, and stats
+                    save_feed(feed_file, items, cache.etag, cache.last_modified, stats)
                     
                     # Process new items
                     feed_topic = f"rss/{feeds[i]['url']}"
@@ -341,7 +334,7 @@ async def main() -> None:
                             'description': item['description'],
                             'pubDate': item['pubDate']
                         }
-                        mqtt_publish(f"{feed_topic}/item", json.dumps(mqtt_item))
+                        mqtt_queue.put((f"{feed_topic}/item", json.dumps(mqtt_item)))
                     total_new_items += len(new_items)
                     if new_items:
                         logger.info(f"Found {len(new_items)} new items in feed {feeds[i]['url']}")
@@ -349,13 +342,35 @@ async def main() -> None:
                     logger.debug(f"Feed {feeds[i]['url']} not modified since last fetch")
 
 
-        # Save updated feed stats after processing all feeds
-        save_feed_stats(feed_input_dir, feeds)
-
     logger.info(f"Total new items found: {total_new_items}")
     logger.info(f"Total data fetched: {format_bytes(total_bytes_fetched)}")
     logger.info(f"Final stats: {successful_count} feeds successful, {failed_count} feeds failed")
     #mqtt_client.loop_stop()
 
+async def process_mqtt_queue():
+    """Process the MQTT queue at a rate of 1 message per second."""
+    while True:
+        if not mqtt_queue.empty():
+            topic, payload = mqtt_queue.get()
+            mqtt_publish(topic, payload)
+            mqtt_queue.task_done()
+        await asyncio.sleep(1)  # Rate limit to 1 message per second
+
+async def run_scheduler():
+    """Run the scheduler to fetch feeds every 10 minutes and process MQTT queue."""
+    # Start with an initial feed fetch
+    fetch_task = asyncio.create_task(main())
+    mqtt_task = asyncio.create_task(process_mqtt_queue())
+    
+    last_fetch = time.time()
+    while True:
+        current_time = time.time()
+        if current_time - last_fetch >= 600:  # 10 minutes in seconds
+            # Wait for previous fetch to complete if it's still running
+            if fetch_task.done():
+                fetch_task = asyncio.create_task(main())
+                last_fetch = current_time
+        await asyncio.sleep(1)
+
 if __name__ == '__main__':
-    asyncio.run(main())
+    asyncio.run(run_scheduler())
