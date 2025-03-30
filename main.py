@@ -234,16 +234,29 @@ async def main() -> None:
     # mqtt_client = connect_mqtt()
     # mqtt_client.loop_start()
 
+    # Get directory paths from environment or use defaults
+    feed_input_dir = os.getenv('FEED_INPUT_DIR', 'feed-input')
+    feed_dir = os.getenv('FEED_DATA_DIR', 'feed_data')
+
     # Create feed data directory if it doesn't exist
-    feed_dir = "feed_data"
     if not os.path.exists(feed_dir):
         os.makedirs(feed_dir)
 
     # Load feeds from feed-input directory
-    feeds = load_feeds_from_directory("feed-input")
+    feeds = load_feeds_from_directory(feed_input_dir)
     if not feeds:
         #mqtt_client.loop_stop()
         return
+
+    # Filter out consistently failing feeds (no successes and >5 failures)
+    original_feed_count = len(feeds)
+    feeds = [
+        feed for feed in feeds
+        if not (feed['stats']['success_count'] == 0 and feed['stats']['failure_count'] > 5)
+    ]
+    filtered_count = original_feed_count - len(feeds)
+    if filtered_count > 0:
+        logger.info(f"Filtered out {filtered_count} consistently failing feeds")
 
     feeds = feeds[:300]
     total_new_items = 0
@@ -337,7 +350,7 @@ async def main() -> None:
 
 
         # Save updated feed stats after processing all feeds
-        save_feed_stats("feed-input", feeds)
+        save_feed_stats(feed_input_dir, feeds)
 
     logger.info(f"Total new items found: {total_new_items}")
     logger.info(f"Total data fetched: {format_bytes(total_bytes_fetched)}")
