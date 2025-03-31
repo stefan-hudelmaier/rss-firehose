@@ -96,7 +96,7 @@ async def fetch_feed(session: aiohttp.ClientSession, url: str, cache: FeedCache)
         ValueError: If the feed cannot be parsed
     """
     headers = cache.get_headers()
-    async with session.get(url, headers=headers, timeout=5) as response:
+    async with session.get(url, headers=headers, timeout=30) as response:
         # Update cache headers from response
         if cache:
             cache.update_from_response(response)

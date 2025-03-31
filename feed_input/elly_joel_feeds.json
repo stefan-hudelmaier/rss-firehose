@@ -1,972 +1,895 @@
 {
   "feeds": [
     {
-      "url": "http://blog.chromium.org/feeds/posts/default",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.208968+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/456bereastreet",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.209621+00:00",
-        "last_failure": "2025-03-28T18:23:41.798988+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/paul-irish",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.209778+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/ILoveTypography",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.210536+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/FunctioningForm",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.210677+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/CssTricks",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.211039+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/remysharp",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.211251+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/robertnyman",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.211726+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/reybango/zSyW",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.211978+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds2.feedburner.com/WebDesignerNotebook",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.212135+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds2.feedburner.com/leaverou",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.212287+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/typegoodness",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.219866+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/RachelNabors",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.220170+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/bocoup",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.220309+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/Kilianvalkhofcom",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.220457+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/WhenCanIUse",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.220639+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://tantek.com/updates.atom?ot=article",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.220796+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/PodnoshBlogHighFibrePodcasting",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.221058+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/thatemil-blog",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.221387+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/HtmlCssJavascript",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.221758+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/robinsloan",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.221860+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/codyhouse/feeds",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.222291+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://feeds.feedburner.com/robweychert",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.222386+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://meowni.ca/atom.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.222862+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://annevankesteren.nl/feeds/weblog",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.224229+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://adactio.com/journal/rss",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.224446+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://mathiasbynens.be/notes.atom",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.224750+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://infrequently.org/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.224848+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.bram.us/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.225481+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://paul.kinlan.me/index.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.225518+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://jakearchibald.com/posts.rss",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.225602+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "http://bramstein.com/rss.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.225629+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://evilmartians.com/chronicles.atom",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.225659+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.w3.org/blog/CSS/feed/atom/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.225696+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://davidwalsh.name/feed/atom",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.225731+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://webkit.org/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.225784+00:00",
-        "last_failure": "2025-03-29T22:12:55.381887+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://timkadlec.com/atom.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.225809+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.w3.org/blog/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.228499+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://feeds.feedburner.com/24ways",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.228586+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://bitsofco.de/rss/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.230440+00:00",
-        "last_failure": "2025-03-28T18:23:41.811241+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://blog.codepen.io/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.235255+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://snook.ca/posts/index.rss",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.235452+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://ishadeed.com/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.235724+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://nolanlawson.com/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.235862+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://jvns.ca/atom.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.235907+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://daverupert.com/atom.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.236398+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://meiert.com/en/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.236666+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://ethanmarcotte.com/wrote/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.236713+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://tylergaw.com/rss.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.236901+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://bigmedium.com/bm.feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.237883+00:00",
-        "last_failure": "2025-03-29T22:12:56.010941+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.zeldman.com/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 18,
-        "failure_count": 2,
-        "last_success": "2025-03-30T21:22:49.783687+00:00",
-        "last_failure": "2025-03-30T21:26:07.238647+00:00",
-        "last_error": ""
-      }
-    },
-    {
-      "url": "https://danielcwilson.com/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.238652+00:00",
-        "last_failure": "2025-03-29T22:12:56.010974+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://blog.typekit.com/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.241813+00:00",
-        "last_failure": "2025-03-28T18:23:41.819408+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://clagnut.com/feeds/fullposts.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.241882+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://feeds.feedburner.com/jsm-rss",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.242049+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://increment.com/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.242454+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://frankchimero.com/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.242509+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://fberriman.com/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.242677+00:00",
-        "last_failure": "2025-03-29T22:12:56.028963+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://feeds.feedburner.com/csswizardry",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.242752+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://keithjgrant.com/posts/index.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.243955+00:00",
-        "last_failure": "2025-03-28T18:23:41.820858+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://pineco.de/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.244969+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.zachleat.com/web/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.245025+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://recordssoundthesame.com/blog/index.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.245171+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://paulrobertlloyd.com/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.245255+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://stevemarshall.com/atom.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.245303+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://julesforrest.com/rss.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.245599+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://molily.de/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.245638+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.aaron-gustafson.com/feeds/latest-posts.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.246411+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.kryogenix.org/days/feed",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.246626+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://trentwalton.com/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.247147+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://matthewstrom.com/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.247227+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://feeds.feedburner.com/briangrinstead",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.249574+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://feeds.feedburner.com/chrisheilmann",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.249733+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://feeds.feedburner.com/elliotjaystocks/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.249840+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://larahogan.me/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.250174+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.susanjeanrobertson.com/feed-journal.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.250382+00:00",
-        "last_failure": "2025-03-29T22:12:56.324273+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://buttondown.email/robinrendle/rss",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 18,
-        "failure_count": 2,
-        "last_success": "2025-03-30T21:26:07.250497+00:00",
-        "last_failure": "2025-03-29T22:33:22.057776+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://marcus.io/feed",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.250865+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://valhead.com/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 1,
-        "failure_count": 19,
-        "last_success": "2025-03-28T18:23:41.829332+00:00",
-        "last_failure": "2025-03-30T21:26:07.251297+00:00",
-        "last_error": "<unknown>:4:0: XML or text declaration not at start of entity"
-      }
-    },
-    {
-      "url": "https://matthiasott.com/rss",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 14,
-        "failure_count": 6,
-        "last_success": "2025-03-30T21:22:49.797507+00:00",
-        "last_failure": "2025-03-30T21:26:07.251320+00:00",
-        "last_error": ""
-      }
-    },
-    {
-      "url": "https://samkapila.com/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.251322+00:00",
-        "last_failure": "2025-03-29T22:12:56.325408+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.scottohara.me/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.251973+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://notlaura.com/feed/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 18,
-        "failure_count": 2,
-        "last_success": "2025-03-30T21:26:07.252018+00:00",
-        "last_failure": "2025-03-29T22:19:24.885904+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://css-irl.info/rss.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.252189+00:00",
-        "last_failure": "2025-03-29T22:26:50.844753+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://sallylait.com/blog/index.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.255718+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://bkardell.com/blog/feed.rss",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.256885+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.liquidlight.co.uk/blog/rss/",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 19,
-        "failure_count": 1,
-        "last_success": "2025-03-30T21:26:07.256982+00:00",
-        "last_failure": "2025-03-29T22:12:56.533724+00:00",
-        "last_error": null
-      }
-    },
-    {
-      "url": "https://www.hawksworx.com/feed.xml",
-      "source_file": "elly_joel_feeds.json",
-      "stats": {
-        "success_count": 20,
-        "failure_count": 0,
-        "last_success": "2025-03-30T21:26:07.257029+00:00",
-        "last_failure": null,
-        "last_error": null
-      }
+      "url": "http://blog.chromium.org/feeds/posts/default"
+    },
+    {
+      "url": "http://feeds.feedburner.com/456bereastreet"
+    },
+    {
+      "url": "http://feeds.feedburner.com/paul-irish"
+    },
+    {
+      "url": "http://feeds.feedburner.com/ILoveTypography"
+    },
+    {
+      "url": "http://feeds.feedburner.com/FunctioningForm"
+    },
+    {
+      "url": "http://feeds.feedburner.com/CssTricks"
+    },
+    {
+      "url": "http://feeds.feedburner.com/remysharp"
+    },
+    {
+      "url": "http://feeds.feedburner.com/robertnyman"
+    },
+    {
+      "url": "http://feeds.feedburner.com/reybango/zSyW"
+    },
+    {
+      "url": "http://feeds2.feedburner.com/WebDesignerNotebook"
+    },
+    {
+      "url": "http://feeds2.feedburner.com/leaverou"
+    },
+    {
+      "url": "http://feeds.feedburner.com/typegoodness"
+    },
+    {
+      "url": "https://hacks.mozilla.org/feed/"
+    },
+    {
+      "url": "http://feeds.feedburner.com/RachelNabors"
+    },
+    {
+      "url": "http://feeds.feedburner.com/bocoup"
+    },
+    {
+      "url": "http://feeds.feedburner.com/Kilianvalkhofcom"
+    },
+    {
+      "url": "http://feeds.feedburner.com/WhenCanIUse"
+    },
+    {
+      "url": "http://www.webdirections.org/category/blog/feed"
+    },
+    {
+      "url": "http://tantek.com/updates.atom?ot=article"
+    },
+    {
+      "url": "http://feeds.feedburner.com/PodnoshBlogHighFibrePodcasting"
+    },
+    {
+      "url": "http://feeds.feedburner.com/thatemil-blog"
+    },
+    {
+      "url": "http://feeds.feedburner.com/HtmlCssJavascript"
+    },
+    {
+      "url": "http://robinrendle.com/feed"
+    },
+    {
+      "url": "http://feeds.feedburner.com/robinsloan"
+    },
+    {
+      "url": "http://feeds.feedburner.com/codyhouse/feeds"
+    },
+    {
+      "url": "http://feeds.feedburner.com/robweychert"
+    },
+    {
+      "url": "http://meowni.ca/atom.xml"
+    },
+    {
+      "url": "https://annevankesteren.nl/feeds/weblog"
+    },
+    {
+      "url": "https://adactio.com/journal/rss"
+    },
+    {
+      "url": "https://mathiasbynens.be/notes.atom"
+    },
+    {
+      "url": "https://infrequently.org/feed/"
+    },
+    {
+      "url": "https://www.bram.us/feed/"
+    },
+    {
+      "url": "https://paul.kinlan.me/index.xml"
+    },
+    {
+      "url": "https://www.filamentgroup.com/lab/atom.xml"
+    },
+    {
+      "url": "https://jakearchibald.com/posts.rss"
+    },
+    {
+      "url": "http://bramstein.com/rss.xml"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles.atom"
+    },
+    {
+      "url": "https://www.w3.org/blog/CSS/feed/atom/"
+    },
+    {
+      "url": "https://davidwalsh.name/feed/atom"
+    },
+    {
+      "url": "https://webkit.org/feed/"
+    },
+    {
+      "url": "https://timkadlec.com/atom.xml"
+    },
+    {
+      "url": "https://www.w3.org/blog/feed/"
+    },
+    {
+      "url": "https://feeds.feedburner.com/24ways"
+    },
+    {
+      "url": "https://bitsofco.de/rss/"
+    },
+    {
+      "url": "https://www.alwaystwisted.com/rss.php"
+    },
+    {
+      "url": "https://blog.codepen.io/feed/"
+    },
+    {
+      "url": "https://snook.ca/posts/index.rss"
+    },
+    {
+      "url": "https://accessibility.blog.gov.uk/feed/"
+    },
+    {
+      "url": "https://ishadeed.com/feed.xml"
+    },
+    {
+      "url": "https://nolanlawson.com/feed/"
+    },
+    {
+      "url": "https://jvns.ca/atom.xml"
+    },
+    {
+      "url": "https://daverupert.com/atom.xml"
+    },
+    {
+      "url": "https://meiert.com/en/feed/"
+    },
+    {
+      "url": "https://ethanmarcotte.com/wrote/feed.xml"
+    },
+    {
+      "url": "https://tylergaw.com/rss.xml"
+    },
+    {
+      "url": "https://bigmedium.com/bm.feed.xml"
+    },
+    {
+      "url": "https://www.zeldman.com/feed/"
+    },
+    {
+      "url": "https://danielcwilson.com/feed.xml"
+    },
+    {
+      "url": "https://blog.typekit.com/feed/"
+    },
+    {
+      "url": "https://feeds.feedburner.com/TheSeaOfIdeas"
+    },
+    {
+      "url": "https://clagnut.com/feeds/fullposts.xml"
+    },
+    {
+      "url": "https://feeds.feedburner.com/jsm-rss"
+    },
+    {
+      "url": "https://increment.com/feed.xml"
+    },
+    {
+      "url": "https://frankchimero.com/feed.xml"
+    },
+    {
+      "url": "https://fberriman.com/feed/"
+    },
+    {
+      "url": "https://webplatform.news/feed.xml"
+    },
+    {
+      "url": "https://feeds.feedburner.com/csswizardry"
+    },
+    {
+      "url": "https://keithjgrant.com/posts/index.xml"
+    },
+    {
+      "url": "https://pineco.de/feed/"
+    },
+    {
+      "url": "https://www.xanthir.com/blog/atom/"
+    },
+    {
+      "url": "https://superyesmore.com/publication/the-pastry-box-project-b0b6f27b41226ac8619212601b8fa48b/feed/rss2"
+    },
+    {
+      "url": "https://www.zachleat.com/web/feed/"
+    },
+    {
+      "url": "https://recordssoundthesame.com/blog/index.xml"
+    },
+    {
+      "url": "https://paulrobertlloyd.com/feed.xml"
+    },
+    {
+      "url": "https://stevemarshall.com/atom.xml"
+    },
+    {
+      "url": "https://julesforrest.com/rss.xml"
+    },
+    {
+      "url": "https://molily.de/feed.xml"
+    },
+    {
+      "url": "https://www.aaron-gustafson.com/feeds/latest-posts.xml"
+    },
+    {
+      "url": "https://www.kryogenix.org/days/feed"
+    },
+    {
+      "url": "https://trentwalton.com/feed.xml"
+    },
+    {
+      "url": "https://matthewstrom.com/feed.xml"
+    },
+    {
+      "url": "https://feeds.feedburner.com/briangrinstead"
+    },
+    {
+      "url": "https://feeds.feedburner.com/chrisheilmann"
+    },
+    {
+      "url": "https://petergasston.co.uk/feed/"
+    },
+    {
+      "url": "https://feeds.feedburner.com/elliotjaystocks/"
+    },
+    {
+      "url": "https://larahogan.me/feed.xml"
+    },
+    {
+      "url": "https://www.susanjeanrobertson.com/feed-journal.xml"
+    },
+    {
+      "url": "https://www.merrickchristensen.com/rss.xml"
+    },
+    {
+      "url": "https://buttondown.email/robinrendle/rss"
+    },
+    {
+      "url": "https://marcus.io/feed"
+    },
+    {
+      "url": "https://valhead.com/feed/"
+    },
+    {
+      "url": "https://matthiasott.com/rss"
+    },
+    {
+      "url": "https://samkapila.com/feed.xml"
+    },
+    {
+      "url": "https://www.scottohara.me/feed.xml"
+    },
+    {
+      "url": "https://notlaura.com/feed/"
+    },
+    {
+      "url": "https://css-irl.info/rss.xml"
+    },
+    {
+      "url": "https://sallylait.com/blog/index.xml"
+    },
+    {
+      "url": "https://bkardell.com/blog/feed.rss"
+    },
+    {
+      "url": "https://www.liquidlight.co.uk/blog/rss/"
+    },
+    {
+      "url": "https://www.hawksworx.com/feed.xml"
+    },
+    {
+      "url": "https://www.quirksmode.org/blog/atom.xml"
+    },
+    {
+      "url": "https://allthingssmitty.com/atom.xml"
+    },
+    {
+      "url": "http://www.didoo.net/feed/"
+    },
+    {
+      "url": "https://www.a11ywithlindsey.com/rss.xml"
+    },
+    {
+      "url": "https://johanronsse.be/feed/"
+    },
+    {
+      "url": "https://www.trysmudford.com/blog/index.xml"
+    },
+    {
+      "url": "https://www.christopherbiscardi.com/rss.xml"
+    },
+    {
+      "url": "https://lynnandtonic.com/feed.xml"
+    },
+    {
+      "url": "https://blog.jim-nielsen.com/feed.xml"
+    },
+    {
+      "url": "https://pqina.nl/feed.xml"
+    },
+    {
+      "url": "https://feeds.feedburner.com/kizuruen"
+    },
+    {
+      "url": "https://www.kooslooijesteijn.net/feed.xml"
+    },
+    {
+      "url": "https://www.webstoemp.com/feed.xml"
+    },
+    {
+      "url": "https://www.matuzo.at/feed.xml"
+    },
+    {
+      "url": "https://katiekodes.com/feed.xml"
+    },
+    {
+      "url": "https://matthewphillips.info/programming/atom.xml"
+    },
+    {
+      "url": "https://marcysutton.com/rss.xml"
+    },
+    {
+      "url": "https://rellyab.wordpress.com/feed/"
+    },
+    {
+      "url": "https://mxb.dev/feed.xml"
+    },
+    {
+      "url": "https://paulitaylor.com/feed/"
+    },
+    {
+      "url": "https://www.no.lol/rss.xml"
+    },
+    {
+      "url": "https://blog.almaer.com/feed/"
+    },
+    {
+      "url": "https://amyhupe.co.uk/atom.xml"
+    },
+    {
+      "url": "https://piperhaywood.com/feed/"
+    },
+    {
+      "url": "https://kirstyburgoine.wordpress.com/feed/"
+    },
+    {
+      "url": "https://bryanlrobinson.com/feed.xml"
+    },
+    {
+      "url": "https://www.nicchan.me/feed.xml"
+    },
+    {
+      "url": "https://dbanks.design/rss.xml"
+    },
+    {
+      "url": "https://alicebartlett.co.uk/feed.xml"
+    },
+    {
+      "url": "https://web.dev/feed.xml"
+    },
+    {
+      "url": "https://tobiasahlin.com/feed.xml"
+    },
+    {
+      "url": "https://feeds.feedburner.com/brad-frosts-blog"
+    },
+    {
+      "url": "https://www.taniarascia.com/rss.xml"
+    },
+    {
+      "url": "https://winnielim.org/feed/"
+    },
+    {
+      "url": "https://justmarkup.com/feed/feed.xml"
+    },
+    {
+      "url": "https://every-layout.dev/feed.xml"
+    },
+    {
+      "url": "https://www.petelambert.com/feed.xml"
+    },
+    {
+      "url": "https://ohhelloana.blog/feed.xml"
+    },
+    {
+      "url": "https://www.oddbird.net/feed.atom"
+    },
+    {
+      "url": "https://chriscoyier.net/feed/"
+    },
+    {
+      "url": "https://psuter.net/feed.xml"
+    },
+    {
+      "url": "https://www.dan-davies.co.uk/feed"
+    },
+    {
+      "url": "https://www.cassie.codes/feed.xml"
+    },
+    {
+      "url": "https://jxnblk.com/rss.xml"
+    },
+    {
+      "url": "https://sarahmhigley.com/feed.xml"
+    },
+    {
+      "url": "https://blog.tomayac.com/feed/feed.xml"
+    },
+    {
+      "url": "https://blog.stephaniestimac.com/feed/feed.xml"
+    },
+    {
+      "url": "https://cloudfour.com/feed/"
+    },
+    {
+      "url": "https://www.the-haystack.com/feed/"
+    },
+    {
+      "url": "https://amberwilson.co.uk/rss.xml"
+    },
+    {
+      "url": "https://www.rdsaunders.co.uk/feed.xml"
+    },
+    {
+      "url": "https://writing.mariusz.cc/rss/"
+    },
+    {
+      "url": "https://markboulton.co.uk/journal/feed/feed.xml"
+    },
+    {
+      "url": "https://thomaspark.co/feed/"
+    },
+    {
+      "url": "https://fitzgeraldnick.com/feed.xml"
+    },
+    {
+      "url": "https://evanminto.com/feed/blog.xml"
+    },
+    {
+      "url": "https://adrianroselli.com/feed"
+    },
+    {
+      "url": "https://www.juanfernandes.uk/rss/feed.xml"
+    },
+    {
+      "url": "https://codersblock.com/rss.xml"
+    },
+    {
+      "url": "https://lukeb.co.uk/rss.xml"
+    },
+    {
+      "url": "https://www.madebymike.com.au/feed.xml"
+    },
+    {
+      "url": "https://wattenberger.com/rss"
+    },
+    {
+      "url": "https://www.joshwcomeau.com/rss.xml"
+    },
+    {
+      "url": "https://nehha-sharma.blogspot.com/feeds/posts/default"
+    },
+    {
+      "url": "https://vanschneider.com/feed"
+    },
+    {
+      "url": "https://markdotto.com/atom.xml"
+    },
+    {
+      "url": "https://heydonworks.com/feed.xml"
+    },
+    {
+      "url": "https://www.jackfranklin.co.uk/feed.xml"
+    },
+    {
+      "url": "https://catalin.red/feed"
+    },
+    {
+      "url": "https://utopia.fyi/feed.xml"
+    },
+    {
+      "url": "https://dhwthompson.com/feed.xml"
+    },
+    {
+      "url": "https://piccalil.li/feed.xml"
+    },
+    {
+      "url": "https://polypane.app/rss.xml"
+    },
+    {
+      "url": "https://fossheim.io/feed.xml"
+    },
+    {
+      "url": "https://jjenzz.com/rss.xml"
+    },
+    {
+      "url": "https://meyerweb.com/eric/thoughts/feed/?scope=full"
+    },
+    {
+      "url": "https://chenhuijing.com/feed.xml"
+    },
+    {
+      "url": "https://sebastienlorber.com/rss.xml"
+    },
+    {
+      "url": "https://maggieappleton.com/rss.xml"
+    },
+    {
+      "url": "https://www.tempertemper.net/feeds/main.xml"
+    },
+    {
+      "url": "https://justinfagnani.com/rss/"
+    },
+    {
+      "url": "https://www.micahgodbolt.com/rss.xml"
+    },
+    {
+      "url": "https://simurai.com/rss/"
+    },
+    {
+      "url": "https://seblee.me/feed/"
+    },
+    {
+      "url": "https://www.webaxe.org/feed/"
+    },
+    {
+      "url": "https://chriskirknielsen.com/rss.xml"
+    },
+    {
+      "url": "https://macwright.com/rss.xml"
+    },
+    {
+      "url": "https://podcast.clearleft.com/podcast.xml"
+    },
+    {
+      "url": "https://tannerchristensen.com/blog?format=rss"
+    },
+    {
+      "url": "https://abandonedwig.info/blog/atom.xml"
+    },
+    {
+      "url": "https://iainbean.com/feed.xml"
+    },
+    {
+      "url": "https://tammyritterskamp.com/rss.xml"
+    },
+    {
+      "url": "https://lukelowrey.com/rss/"
+    },
+    {
+      "url": "https://pustelto.com/feed.xml"
+    },
+    {
+      "url": "https://www.parkermalenke.com/feed.xml"
+    },
+    {
+      "url": "https://westleyknight.com/feed.xml"
+    },
+    {
+      "url": "https://feeds.feedburner.com/webdevnet"
+    },
+    {
+      "url": "https://sia.codes/feed/feed.xml"
+    },
+    {
+      "url": "https://nickymeuleman.netlify.app/blog/rss.xml"
+    },
+    {
+      "url": "https://www.otsukare.info/feeds/atom.xml"
+    },
+    {
+      "url": "https://smth.uk/feed/articles.xml"
+    },
+    {
+      "url": "https://tink.uk/feed.xml"
+    },
+    {
+      "url": "https://html5accessibility.com/stuff/feed/"
+    },
+    {
+      "url": "https://flickerfusion.com/index.xml"
+    },
+    {
+      "url": "https://www.hsablonniere.com/articles-feed.xml"
+    },
+    {
+      "url": "https://11ty.rocks/feed/"
+    },
+    {
+      "url": "https://blog.maximeheckel.com/rss.xml"
+    },
+    {
+      "url": "https://www.petermerholz.com/feed/"
+    },
+    {
+      "url": "https://timseverien.com/feed.xml"
+    },
+    {
+      "url": "https://www.ryangittings.co.uk/feed.xml"
+    },
+    {
+      "url": "https://www.jayfreestone.com/feed.xml"
+    },
+    {
+      "url": "https://briefs.video/feed.xml"
+    },
+    {
+      "url": "https://www.marclittlemore.com/feed.xml"
+    },
+    {
+      "url": "https://guillaume.wuips.com/feed.xml"
+    },
+    {
+      "url": "https://www.marcozehe.de/rss.xml"
+    },
+    {
+      "url": "https://kittygiraudel.com/rss/index.xml"
+    },
+    {
+      "url": "https://www.silvestar.codes/rss.xml"
+    },
+    {
+      "url": "https://www.aleksandrhovhannisyan.com/feed.xml"
+    },
+    {
+      "url": "https://www.abeautifulsite.net/feed/feed.xml"
+    },
+    {
+      "url": "http://www.tpgi.com/blog/feed/"
+    },
+    {
+      "url": "https://www.mikeaparicio.com/feed.xml"
+    },
+    {
+      "url": "https://benmyers.dev/feed.xml"
+    },
+    {
+      "url": "https://racheleditullio.com/feed/"
+    },
+    {
+      "url": "https://rachsmith.com/rss/"
+    },
+    {
+      "url": "https://whitep4nth3r.com/feed.xml"
+    },
+    {
+      "url": "https://webaim.org/blog/feed/atom/"
+    },
+    {
+      "url": "https://brucelawson.co.uk/feed/"
+    },
+    {
+      "url": "https://www.brycewray.com/index.xml"
+    },
+    {
+      "url": "https://www.cassey.dev/feed/feed.xml"
+    },
+    {
+      "url": "https://yogeshchauhan.com/feed/"
+    },
+    {
+      "url": "https://www.ctnicholas.dev/rss.xml"
+    },
+    {
+      "url": "http://www.intothesystem.blog/feed/"
+    },
+    {
+      "url": "https://designsystemcentral.com/feed/"
+    },
+    {
+      "url": "https://darn.es/rss.xml"
+    },
+    {
+      "url": "https://yatil.net/feed"
+    },
+    {
+      "url": "https://nicolasgallagher.com/feed/"
+    },
+    {
+      "url": "https://backlight.dev/rss.xml"
+    },
+    {
+      "url": "https://andy-bell.co.uk/feed/"
+    },
+    {
+      "url": "https://www.tatianamac.com/feed/feed.xml"
+    },
+    {
+      "url": "https://henry.codes/feed.xml"
+    },
+    {
+      "url": "https://ryanmulligan.dev/blog/feed.xml"
+    },
+    {
+      "url": "https://rishat.us/rss/"
+    },
+    {
+      "url": "https://christophlabacher.com/feed/"
+    },
+    {
+      "url": "https://blog.mayank.co/rss.xml"
+    },
+    {
+      "url": "https://web.dev/tags/new-to-the-web/feed.xml"
+    },
+    {
+      "url": "https://hidde.blog/feed"
+    },
+    {
+      "url": "https://helloanselm.com/feed/rss"
+    },
+    {
+      "url": "https://blog.damato.design/feed.xml"
+    },
+    {
+      "url": "https://dutchcelt.nl/feed.xml"
+    },
+    {
+      "url": "https://melsumner.github.io/feed.xml"
+    },
+    {
+      "url": "https://jordanm.co.uk/feed.xml"
+    },
+    {
+      "url": "https://localghost.dev/feed.xml"
+    },
+    {
+      "url": "https://chromatichq.com/insights/feed.xml"
+    },
+    {
+      "url": "https://www.mikestreety.co.uk/rss.xml"
+    },
+    {
+      "url": "https://zeichenschatz.net/feed/"
+    },
+    {
+      "url": "https://ericwbailey.website/feed/feed.xml"
+    },
+    {
+      "url": "https://www.sarasoueidan.com/blog/index.xml/"
+    },
+    {
+      "url": "http://rachelandrew.co.uk/feed/"
+    },
+    {
+      "url": "https://www.workspaces.xyz/p/rss.xml"
+    },
+    {
+      "url": "https://elisehe.in/feed.xml"
+    },
+    {
+      "url": "https://pepelsbey.dev/feed/"
+    },
+    {
+      "url": "https://tarasis.net/feed.xml"
+    },
+    {
+      "url": "https://danmall.com/feed.xml"
+    },
+    {
+      "url": "https://tane.dev/index.xml"
+    },
+    {
+      "url": "https://www.cjcid.com/feeds/essays.xml"
+    },
+    {
+      "url": "https://anhvn.com/feed.xml"
+    },
+    {
+      "url": "https://clearleft.com/thinking/rss"
+    },
+    {
+      "url": "https://www.alpower.com/feed.xml"
+    },
+    {
+      "url": "https://www.lenesaile.com/en/feed.xml"
+    },
+    {
+      "url": "https://nerdy.dev/rss.xml"
+    },
+    {
+      "url": "https://arie.ls/atom.xml"
+    },
+    {
+      "url": "https://www.disabilitydebrief.org/rss/"
+    },
+    {
+      "url": "https://set.studio/feed/"
+    },
+    {
+      "url": "https://www.voorhoede.nl/blog/feed.json"
+    },
+    {
+      "url": "https://una.im/rss.xml"
+    },
+    {
+      "url": "https://v4.danmall.com/rss/full.xml"
+    },
+    {
+      "url": "https://feeds.fireside.fm/systems-of-harm/rss"
+    },
+    {
+      "url": "https://zeroheight.com/blog/feed/"
+    },
+    {
+      "url": "https://medium.com/@nathanacurtis/feed"
+    },
+    {
+      "url": "https://anchor.fm/s/81f880f0/podcast/rss"
+    },
+    {
+      "url": "https://www.lindsaykwardell.com/rss.xml"
+    },
+    {
+      "url": "https://smart-interface-design-patterns.com/feed.xml"
+    },
+    {
+      "url": "https://avazeldman.com/feed/"
+    },
+    {
+      "url": "https://blog.kizu.dev/rss.xml"
+    },
+    {
+      "url": "https://pjonori.blog/rss.xml"
+    },
+    {
+      "url": "https://designsystems.news/rss.xml"
+    },
+    {
+      "url": "https://www.mayank.co/blog/rss.xml"
+    },
+    {
+      "url": "https://ds.events/rss.xml"
+    },
+    {
+      "url": "https://buttondown.email/ownyourweb/rss"
+    },
+    {
+      "url": "https://feeds.libsyn.com/492353/rss"
+    },
+    {
+      "url": "https://frontendmasters.com/blog/feed/"
+    },
+    {
+      "url": "https://www.tpgi.com/technical/feed/"
+    },
+    {
+      "url": "https://9elements.com/blog/rss.xml"
+    },
+    {
+      "url": "https://benjamin.parry.is//writing/feed.xml"
+    },
+    {
+      "url": "https://www.csscade.com/feed.rss"
+    },
+    {
+      "url": "https://www.w3.org/groups/tf/cognitive-a11y-tf/feed/"
+    },
+    {
+      "url": "https://equinusocio.dev/feed/"
     }
   ]
 }

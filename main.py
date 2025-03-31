@@ -33,7 +33,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 # Semaphore to limit concurrent requests
-semaphore = asyncio.Semaphore(150)
+semaphore = asyncio.Semaphore(50)
 
 # Queue for MQTT messages
 mqtt_queue = Queue()
@@ -240,7 +240,7 @@ async def main() -> None:
         return
 
     # Create a new ClientSession with TCP connector cleanup
-    connector = aiohttp.TCPConnector(force_close=True)
+    connector = aiohttp.TCPConnector(limit=100)
     async with aiohttp.ClientSession(connector=connector) as session:
         # Filter out consistently failing feeds (no successes and >5 failures)
         original_feed_count = len(feeds)
@@ -268,7 +268,7 @@ async def main() -> None:
 
         feeds = filtered_feeds
 
-        feeds = feeds[:300]
+        # feeds = feeds[:300]
         total_new_items = 0
         total_bytes_fetched = 0
 
@@ -379,7 +379,8 @@ async def process_mqtt_queue():
             topic, payload = mqtt_queue.get()
             mqtt_publish(topic, payload)
             mqtt_queue.task_done()
-        await asyncio.sleep(1)  # Rate limit to 1 message per second
+        #await asyncio.sleep(1)  # Rate limit to 1 message per second
+        await asyncio.sleep(0.1)  # Rate limit to 1 message per second
 
 async def run_scheduler():
     """Run the scheduler to fetch feeds every 10 minutes and process MQTT queue."""
