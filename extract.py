@@ -46,8 +46,8 @@ def download_file(url: str) -> str:
 
 
 if __name__ == '__main__':
-    # Create feed-input directory if it doesn't exist
-    feed_input_dir = 'feed-input'
+    # Create feed_input directory if it doesn't exist
+    feed_input_dir = 'feed_input'
     if not os.path.exists(feed_input_dir):
         os.makedirs(feed_input_dir)
 

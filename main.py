@@ -10,7 +10,6 @@ import logging
 import sys
 import base64
 import paho.mqtt.client as mqtt
-import schedule
 import time
 from queue import Queue
 from typing import List, Dict, Any, Tuple, Optional
@@ -101,18 +100,23 @@ def load_persisted_feed(file_path: str) -> Dict[str, Any]:
             - etag: ETag header value if present
             - last_modified: Last-Modified header value if present
             - stats: Dictionary with success/failure counts and timestamps
+            - conditional_fetch_supported: Boolean indicating if feed supports conditional fetching
     """
     if os.path.exists(file_path):
         with open(file_path, 'r') as f:
             data = json.load(f)
             if isinstance(data, list):  # Handle old format
-                return {'items': data, 'etag': None, 'last_modified': None, 'stats': {}}
+                return {'items': data, 'etag': None, 'last_modified': None, 'stats': {}, 'conditional_fetch_supported': None}
             if 'stats' not in data:  # Handle data without stats
                 data['stats'] = {}
+            if 'conditional_fetch_supported' not in data:  # Handle data without conditional fetch support
+                data['conditional_fetch_supported'] = None
             return data
-    return {'items': [], 'etag': None, 'last_modified': None, 'stats': {}}
+    return {'items': [], 'etag': None, 'last_modified': None, 'stats': {}, 'conditional_fetch_supported': None}
 
-def save_feed(file_path: str, items: List[Dict[str, Any]], etag: Optional[str] = None, last_modified: Optional[str] = None, stats: Optional[Dict[str, Any]] = None) -> None:
+def save_feed(file_path: str, items: List[Dict[str, Any]], etag: Optional[str] = None, 
+           last_modified: Optional[str] = None, stats: Optional[Dict[str, Any]] = None, 
+           conditional_fetch_supported: Optional[bool] = None) -> None:
     """Save feed items and caching headers to a JSON file.
     
     Args:
@@ -121,12 +125,14 @@ def save_feed(file_path: str, items: List[Dict[str, Any]], etag: Optional[str] =
         etag: Optional ETag header value
         last_modified: Optional Last-Modified header value
         stats: Optional stats dictionary containing success/failure counts and timestamps
+        conditional_fetch_supported: Optional boolean indicating if feed supports conditional fetching
     """
     data = {
         'items': items,
         'etag': etag,
         'last_modified': last_modified,
-        'stats': stats or {}
+        'stats': stats or {},
+        'conditional_fetch_supported': conditional_fetch_supported
     }
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=2)
@@ -220,39 +226,52 @@ async def main() -> None:
     # mqtt_client.loop_start()
 
     # Get directory paths from environment or use defaults
-    feed_input_dir = os.getenv('FEED_INPUT_DIR', 'feed-input')
+    feed_input_dir = os.getenv('FEED_INPUT_DIR', 'feed_input')
     feed_dir = os.getenv('FEED_DATA_DIR', 'feed_data')
 
     # Create feed data directory if it doesn't exist
     if not os.path.exists(feed_dir):
         os.makedirs(feed_dir)
 
-    # Load feeds from feed-input directory
+    # Load feeds from feed_input directory
     feeds = load_feeds_from_directory(feed_input_dir)
     if not feeds:
         #mqtt_client.loop_stop()
         return
 
-    # Filter out consistently failing feeds (no successes and >5 failures)
-    original_feed_count = len(feeds)
-    filtered_feeds = []
-    for feed in feeds:
-        feed_file = os.path.join(feed_dir, get_feed_filename(feed['url']))
-        feed_data = load_persisted_feed(feed_file)
-        stats = feed_data.get('stats', {})
-        if not (stats.get('success_count', 0) == 0 and stats.get('failure_count', 0) > 5):
-            filtered_feeds.append(feed)
-    
-    filtered_count = original_feed_count - len(filtered_feeds)
-    if filtered_count > 0:
-        logger.info(f"Filtered out {filtered_count} consistently failing feeds")
-    feeds = filtered_feeds
+    # Create a new ClientSession with TCP connector cleanup
+    connector = aiohttp.TCPConnector(force_close=True)
+    async with aiohttp.ClientSession(connector=connector) as session:
+        # Filter out consistently failing feeds (no successes and >5 failures)
+        original_feed_count = len(feeds)
+        filtered_feeds = []
 
-    feeds = feeds[:300]
-    total_new_items = 0
-    total_bytes_fetched = 0
+        filtered_out_no_conditional_fetching = 0
+        filtered_out_consistently_failing = 0
 
-    async with aiohttp.ClientSession() as session:
+        for feed in feeds:
+            feed_file = os.path.join(feed_dir, get_feed_filename(feed['url']))
+            feed_data = load_persisted_feed(feed_file)
+            stats = feed_data.get('stats', {})
+            if stats.get('success_count', 0) == 0 and stats.get('failure_count', 0) > 5:
+                filtered_out_consistently_failing += 1
+            elif feed_data.get('conditional_fetch_supported') == False:
+                filtered_out_no_conditional_fetching += 1
+            else:
+                filtered_feeds.append(feed)
+        
+        if filtered_out_no_conditional_fetching > 0:
+            logger.info(f"Filtered out {filtered_out_no_conditional_fetching} feeds that don't support conditional fetching")
+
+        if filtered_out_consistently_failing > 0:
+            logger.info(f"Filtered out {filtered_out_consistently_failing} consistently failing feeds")
+
+        feeds = filtered_feeds
+
+        feeds = feeds[:300]
+        total_new_items = 0
+        total_bytes_fetched = 0
+
         total_feeds = len(feeds)
         fetch_successful = 0
         fetch_failed = 0
@@ -264,7 +283,13 @@ async def main() -> None:
             # Load persisted feed data and create cache object
             feed_file = os.path.join(feed_dir, get_feed_filename(feed['url']))
             feed_data = load_persisted_feed(feed_file)
-            cache = FeedCache(feed_data['etag'], feed_data['last_modified'])
+            
+            # Initialize cache with previous etag/last-modified and conditional fetch support if available
+            cache = FeedCache(
+                feed_data.get('etag'),
+                feed_data.get('last_modified'),
+                feed_data.get('conditional_fetch_supported')
+            )
             tasks.append(fetch_with_semaphore(session, feed['url'], progress_queue, cache))
         
         # Start a background task to monitor progress
@@ -322,8 +347,8 @@ async def main() -> None:
                 # Find new items by comparing with persisted items
                 new_items = find_new_items(feed_data['items'], items)
                 if new_items or was_modified:
-                    # Save the feed data with updated items, cache headers, and stats
-                    save_feed(feed_file, items, cache.etag, cache.last_modified, stats)
+                    # Save the feed data with updated items, cache headers, stats and conditional fetch support
+                    save_feed(feed_file, items, cache.etag, cache.last_modified, stats, cache.conditional_fetch_supported)
                     
                     # Process new items
                     feed_topic = f"rss/{feeds[i]['url']}"
@@ -342,9 +367,9 @@ async def main() -> None:
                     logger.debug(f"Feed {feeds[i]['url']} not modified since last fetch")
 
 
-    logger.info(f"Total new items found: {total_new_items}")
-    logger.info(f"Total data fetched: {format_bytes(total_bytes_fetched)}")
-    logger.info(f"Final stats: {successful_count} feeds successful, {failed_count} feeds failed")
+        logger.info(f"Total new items found: {total_new_items}")
+        logger.info(f"Total data fetched: {format_bytes(total_bytes_fetched)}")
+        logger.info(f"Final stats: {successful_count} feeds successful, {failed_count} feeds failed")
     #mqtt_client.loop_stop()
 
 async def process_mqtt_queue():

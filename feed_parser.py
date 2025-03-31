@@ -10,9 +10,10 @@ logger = logging.getLogger(__name__)
 
 class FeedCache:
     """Class to handle feed caching headers."""
-    def __init__(self, etag: Optional[str] = None, last_modified: Optional[str] = None):
+    def __init__(self, etag: Optional[str] = None, last_modified: Optional[str] = None, conditional_fetch_supported: Optional[bool] = None):
         self.etag = etag
         self.last_modified = last_modified
+        self.conditional_fetch_supported = conditional_fetch_supported
 
     def get_headers(self) -> Dict[str, str]:
         """Get headers for conditional request."""
@@ -27,6 +28,10 @@ class FeedCache:
         """Update cache headers from response."""
         self.etag = response.headers.get('ETag')
         self.last_modified = response.headers.get('Last-Modified')
+        
+        # A feed supports conditional fetching if it provides either ETag or Last-Modified
+        if self.conditional_fetch_supported is None:
+            self.conditional_fetch_supported = bool(self.etag or self.last_modified)
 
 def find_new_items(current_items: List[Dict[str, Any]], fetched_items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """Find new items in fetched_items that aren't in current_items.
